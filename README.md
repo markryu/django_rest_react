@@ -122,3 +122,23 @@ class ArticleList extends React.Component {
     }
 }
 ```
+
+`npm install react-dom-router --save`
+- for redirects inside apps
+
+`routes.js`
+- in the main source folder
+- syntax
+
+```javascript
+const BaseRouter = () -> (
+    <div>
+        <Route exacct path='/' component{your_component_here} />
+        <Route exacct path='/articleID' component{your_component_here} />
+    </div>
+)
+```
+
+The Base router will be the one displaying data inside where the baserouter has defined a list view or any kind of view. It will be then wrapped around the Browser Router in the app.js
+
+``` WILL FOCUS ON REACT NEXT TIME --- NEEDS MORE UNDERSTANDING ```
